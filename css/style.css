@@ -1,0 +1,332 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  /* border: none; */
+  border-color: transparent;
+  background-color: transparent;
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.fbx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  background: #151515;
+  color: #ffffff;
+  margin-left: 165px;
+  margin-right: 165px;
+}
+
+.space-grotesk {
+  font-family: 'Space Grotesk', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header {
+  height: 32px;
+  /* padding-left: 165px;
+  padding-right: 165px; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  padding-top: 39px;
+  margin-bottom: 127px;
+
+  p {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.444444px;
+  }
+
+  ul {
+    /* display: flex; */
+    gap: 32px;
+  }
+}
+
+main {
+  .me {
+    max-width: 706px;
+    /* height: 303px; */
+    /* margin-left: 165px; */
+    margin-bottom: 219px;
+
+    h1 {
+      font-weight: 700;
+      font-size: 88px;
+      line-height: 88px;
+      letter-spacing: -2.5px;
+      color: #ffffff;
+      margin-bottom: 43px;
+    }
+
+    h1 span {
+      text-decoration-line: underline;
+      text-decoration-color: #4ee1a0;
+      text-decoration-thickness: 6px;
+      /* text-decoration: none; */
+      text-underline-offset: 13px;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 28px;
+      color: #d9d9d9;
+      margin-bottom: 66px;
+    }
+  }
+
+  a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.28px;
+    color: #ffffff;
+    /* margin-left: 165px; */
+    text-decoration-line: underline;
+    text-decoration-color: #4ee1a0;
+    text-decoration-thickness: 2px;
+    text-transform: uppercase;
+    text-underline-offset: 10px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  hr {
+    width: 100%;
+    min-width: 1110px;
+    height: 1px;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 219px; */
+    margin-bottom: 72px;
+  }
+
+  .exipiriens {
+    margin-bottom: 140px;
+    /* height: 256px; */
+    /* background-color: red; */
+
+    dl {
+      /* width: 100%;
+      width: 1100px; */
+      display: flex;
+      /* align-items: center; */
+      flex-wrap: wrap;
+      /* height: 100%; */
+      gap: 58px;
+
+      div {
+        /* width: 30%; */
+        width: 345px;
+
+        dt {
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 56px;
+          letter-spacing: -1.5px;
+          color: #FFFFFF;
+          margin-bottom: 14px;
+        }
+
+        dd {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 28px;
+          color: #D9D9D9;
+        }
+
+      }
+    }
+  }
+
+  .proj {
+    margin-bottom: 140px;
+
+    header {
+      margin-bottom: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h2 {
+        font-weight: 700;
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -2.5px;
+        color: #FFFFFF;
+      }
+    }
+
+    .myProj {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 70px;
+      column-gap: 30px;
+
+      article {
+        width: 100%;
+        max-width: 540px;
+        height: 487px;
+        /* border: 2px solid red; */
+
+        .bg {
+          width: 100%;
+          max-width: 545px;
+          height: 400px;
+          margin-bottom: 20px;
+          /* background-color: rgb(0, 47, 255); */
+          /* border: 5px solid rgb(242, 255, 0); */
+          background-position: center top;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+          &:hover .links {
+            /* display: flex; */
+            background-color: rgba(0 0 0/0.75);
+            opacity: 1;
+
+          }
+
+          .links {
+            /* display: none; */
+            opacity: 0;
+            gap: 48px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            transition: all 0.5s ease-in-out;
+
+            a:hover {
+              color: #4ee1a0;
+            }
+
+            F
+          }
+        }
+
+        h3 {
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 32px;
+          color: #FFFFFF;
+          margin-bottom: 7px;
+        }
+
+        p {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 28px;
+          color: #D9D9D9;
+        }
+      }
+
+      article:nth-child(1) .bg {
+        background-image: url(../assets/images/News.png);
+
+      }
+
+      article:nth-child(2) .bg {
+        background-image: url(../assets/images/sunnyside.png);
+
+      }
+
+      article:nth-child(3) .bg {
+        background-image: url(../assets/images/workit.png);
+
+      }
+
+      article:nth-child(4) .bg {
+        background-image: url(../assets/images/techbook.png);
+
+      }
+
+      article:nth-child(5) .bg {
+        background-image: url(../assets/images/recipe.png);
+
+      }
+
+      article:nth-child(6) .bg {
+        background-image: url(../assets/images/clipboard.png);
+
+      }
+    }
+  }
+}
+
+footer {
+  background-color: #979797;
+  div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 92px;
+
+    hr {
+      border: solid 1px #FFFFFF;
+      width: 100%;
+      margin-top: 92px;
+      margin-bottom: 47px;
+
+    }
+
+    div {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      p {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: -0.45px;
+        color: #FFFFFF;
+      }
+
+      ul {
+        display: flex;
+        gap: 32px;
+        li {
+          a {
+            img {}
+          }
+        }
+      }
+    }
+  }
+}
