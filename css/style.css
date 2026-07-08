@@ -41,8 +41,6 @@ html {
 body {
   background: #151515;
   color: #ffffff;
-  margin-left: 165px;
-  margin-right: 165px;
 }
 
 .space-grotesk {
@@ -51,8 +49,9 @@ body {
   font-style: normal;
 }
 
-header {
-  height: 32px;
+body>header {
+  margin-left: 165px;
+  margin-right: 165px;
   /* padding-left: 165px;
   padding-right: 165px; */
   /* display: flex; */
@@ -74,6 +73,9 @@ header {
 }
 
 main {
+  margin-left: 165px;
+  margin-right: 165px;
+
   .me {
     max-width: 706px;
     /* height: 303px; */
@@ -257,32 +259,27 @@ main {
       }
 
       article:nth-child(1) .bg {
-        background-image: url(../assets/images/News.png);
+        background-image: url(../assets/images/newshompage.webp);
 
       }
 
       article:nth-child(2) .bg {
-        background-image: url(../assets/images/sunnyside.png);
+        background-image: url(../assets/images/sunnyside.webp);
 
       }
 
       article:nth-child(3) .bg {
-        background-image: url(../assets/images/workit.png);
+        background-image: url(../assets/images/tech.webp);
 
       }
 
       article:nth-child(4) .bg {
-        background-image: url(../assets/images/techbook.png);
+        background-image: url(../assets/images/recipe.webp);
 
       }
 
       article:nth-child(5) .bg {
-        background-image: url(../assets/images/recipe.png);
-
-      }
-
-      article:nth-child(6) .bg {
-        background-image: url(../assets/images/clipboard.png);
+        background-image: url(../assets/images/clipboard.webp);
 
       }
     }
@@ -290,12 +287,15 @@ main {
 }
 
 footer {
-  background-color: #979797;
+  background-color: #242424;
+
   div {
+    margin-left: 165px;
+    margin-right: 165px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 92px;
+    padding-bottom: 92px;
 
     hr {
       border: solid 1px #FFFFFF;
@@ -310,6 +310,7 @@ footer {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+
       p {
         font-weight: 700;
         font-size: 32px;
@@ -321,6 +322,7 @@ footer {
       ul {
         display: flex;
         gap: 32px;
+
         li {
           a {
             img {}
